@@ -1,0 +1,29 @@
+{
+  "name": "pubnotes",
+  "version": "1.0.0",
+  "author": "Douglas Adams <douglasryanadams@gmail.com> (https://github.com/douglasryanadams/pubnotes)",
+  "scripts": {
+    "lint": "remark .",
+    "markserv": "remark --frail . && markserv",
+    "readme": "remark --frail . && readme"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "remark-preset-lint-recommended",
+      [
+        "remark-lint-maximum-line-length",
+        false
+      ],
+      [
+        "remark-lint-list-item-indent",
+        "space"
+      ]
+    ]
+  },
+  "dependencies": {
+    "markserv": "^1.17.4",
+    "remark-cli": "^7.0.1",
+    "remark-lint": "^6.0.5",
+    "remark-preset-lint-recommended": "^3.0.3"
+  }
+}
