@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "author": "Douglas Adams <douglasryanadams@gmail.com> (https://github.com/douglasryanadams/pubnotes)",
   "scripts": {
+    "serve" : "remark --frail . && readme",
+    "serve-with-errors" : "readme",
     "lint": "remark .",
     "markserv": "remark --frail . && markserv",
     "readme": "remark --frail . && readme"

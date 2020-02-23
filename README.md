@@ -8,11 +8,27 @@ Table of Contents
 
 - [Home](./README.md)
 - [Software Development Philosophy](./software-development-philosophy.md)
+- Belief Auditing Facts
+  - [Decision Biases](./decision-biases.md)
+  - [Statistical Anomolies](./statistical-anomolies.md)
+  - [Debate Misdiretions](./debate-misdirections.md)
+  - [Social Phenomena](./social-phenomena.md)
+  - [Cognitive Distortions](./cognitive-distortions.md)
 
 Instructions for Making Additions
 ---------------------------------
 
-Install `remark-lint` for linting and `markserv` for serving:
+### Quickstart
+
+Run the following:
+
+```bash
+npm install && npm run serve
+```
+
+### Details
+
+Install `remark-lint` for linting and `markserv` for launching rendered markdown in a browser:
 
 ```bash
 npm install
