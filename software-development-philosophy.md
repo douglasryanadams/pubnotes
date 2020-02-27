@@ -41,3 +41,19 @@ The Progression of Mastery:
 - Organized, broad thinking
 - Recognizes solutions fall on a spectrum of good and bad
 - Carefully pays attention to details
+
+New Programming Language
+------------------------
+
+Things to review when learning a new language
+
+- Memory Management
+- String concatonation
+- Exeptions
+- Unit Tests
+- Asynch
+- Threading
+- Linter
+- Polymorphism (if applicable)
+- How to read language-native docs
+
