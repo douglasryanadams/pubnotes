@@ -49,6 +49,7 @@ Things to review when learning a new language
 
 - Memory Management
 - String concatonation
+- Logging
 - Exeptions
 - Unit Tests
 - Asynch
